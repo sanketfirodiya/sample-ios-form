@@ -1,0 +1,503 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FBCF959919C9332C0034D92C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBCF959819C9332C0034D92C /* Foundation.framework */; };
+		FBCF959B19C9332C0034D92C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBCF959A19C9332C0034D92C /* CoreGraphics.framework */; };
+		FBCF959D19C9332C0034D92C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBCF959C19C9332C0034D92C /* UIKit.framework */; };
+		FBCF95A319C9332D0034D92C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FBCF95A119C9332D0034D92C /* InfoPlist.strings */; };
+		FBCF95A519C9332D0034D92C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FBCF95A419C9332D0034D92C /* main.m */; };
+		FBCF95A919C9332D0034D92C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FBCF95A819C9332D0034D92C /* AppDelegate.m */; };
+		FBCF95AC19C9332D0034D92C /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBCF95AA19C9332D0034D92C /* Main_iPhone.storyboard */; };
+		FBCF95AF19C9332D0034D92C /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBCF95AD19C9332D0034D92C /* Main_iPad.storyboard */; };
+		FBCF95B219C9332D0034D92C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FBCF95B119C9332D0034D92C /* ViewController.m */; };
+		FBCF95B419C9332D0034D92C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBCF95B319C9332D0034D92C /* Images.xcassets */; };
+		FBCF95BB19C9332D0034D92C /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBCF95BA19C9332D0034D92C /* XCTest.framework */; };
+		FBCF95BC19C9332D0034D92C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBCF959819C9332C0034D92C /* Foundation.framework */; };
+		FBCF95BD19C9332D0034D92C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBCF959C19C9332C0034D92C /* UIKit.framework */; };
+		FBCF95C519C9332D0034D92C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FBCF95C319C9332D0034D92C /* InfoPlist.strings */; };
+		FBCF95C719C9332D0034D92C /* SampleFormTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FBCF95C619C9332D0034D92C /* SampleFormTests.m */; };
+		FBCF95D319C933910034D92C /* TextInputCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FBCF95D219C933910034D92C /* TextInputCell.m */; };
+		FBCF95D519C933A50034D92C /* TextInputCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FBCF95D419C933A50034D92C /* TextInputCell.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FBCF95BE19C9332D0034D92C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FBCF958D19C9332C0034D92C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FBCF959419C9332C0034D92C;
+			remoteInfo = SampleForm;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FBCF959519C9332C0034D92C /* SampleForm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SampleForm.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBCF959819C9332C0034D92C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FBCF959A19C9332C0034D92C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		FBCF959C19C9332C0034D92C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FBCF95A019C9332D0034D92C /* SampleForm-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SampleForm-Info.plist"; sourceTree = "<group>"; };
+		FBCF95A219C9332D0034D92C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FBCF95A419C9332D0034D92C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FBCF95A619C9332D0034D92C /* SampleForm-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SampleForm-Prefix.pch"; sourceTree = "<group>"; };
+		FBCF95A719C9332D0034D92C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FBCF95A819C9332D0034D92C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FBCF95AB19C9332D0034D92C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		FBCF95AE19C9332D0034D92C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		FBCF95B019C9332D0034D92C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FBCF95B119C9332D0034D92C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FBCF95B319C9332D0034D92C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FBCF95B919C9332D0034D92C /* SampleFormTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SampleFormTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBCF95BA19C9332D0034D92C /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		FBCF95C219C9332D0034D92C /* SampleFormTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SampleFormTests-Info.plist"; sourceTree = "<group>"; };
+		FBCF95C419C9332D0034D92C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FBCF95C619C9332D0034D92C /* SampleFormTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SampleFormTests.m; sourceTree = "<group>"; };
+		FBCF95D119C933910034D92C /* TextInputCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextInputCell.h; sourceTree = "<group>"; };
+		FBCF95D219C933910034D92C /* TextInputCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextInputCell.m; sourceTree = "<group>"; };
+		FBCF95D419C933A50034D92C /* TextInputCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TextInputCell.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FBCF959219C9332C0034D92C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBCF959B19C9332C0034D92C /* CoreGraphics.framework in Frameworks */,
+				FBCF959D19C9332C0034D92C /* UIKit.framework in Frameworks */,
+				FBCF959919C9332C0034D92C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBCF95B619C9332D0034D92C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBCF95BB19C9332D0034D92C /* XCTest.framework in Frameworks */,
+				FBCF95BD19C9332D0034D92C /* UIKit.framework in Frameworks */,
+				FBCF95BC19C9332D0034D92C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FBCF958C19C9332C0034D92C = {
+			isa = PBXGroup;
+			children = (
+				FBCF95D019C933750034D92C /* TextInput */,
+				FBCF959E19C9332C0034D92C /* SampleForm */,
+				FBCF95C019C9332D0034D92C /* SampleFormTests */,
+				FBCF959719C9332C0034D92C /* Frameworks */,
+				FBCF959619C9332C0034D92C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FBCF959619C9332C0034D92C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FBCF959519C9332C0034D92C /* SampleForm.app */,
+				FBCF95B919C9332D0034D92C /* SampleFormTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FBCF959719C9332C0034D92C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FBCF959819C9332C0034D92C /* Foundation.framework */,
+				FBCF959A19C9332C0034D92C /* CoreGraphics.framework */,
+				FBCF959C19C9332C0034D92C /* UIKit.framework */,
+				FBCF95BA19C9332D0034D92C /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FBCF959E19C9332C0034D92C /* SampleForm */ = {
+			isa = PBXGroup;
+			children = (
+				FBCF95A719C9332D0034D92C /* AppDelegate.h */,
+				FBCF95A819C9332D0034D92C /* AppDelegate.m */,
+				FBCF95AA19C9332D0034D92C /* Main_iPhone.storyboard */,
+				FBCF95AD19C9332D0034D92C /* Main_iPad.storyboard */,
+				FBCF95B019C9332D0034D92C /* ViewController.h */,
+				FBCF95B119C9332D0034D92C /* ViewController.m */,
+				FBCF95B319C9332D0034D92C /* Images.xcassets */,
+				FBCF959F19C9332D0034D92C /* Supporting Files */,
+			);
+			path = SampleForm;
+			sourceTree = "<group>";
+		};
+		FBCF959F19C9332D0034D92C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FBCF95A019C9332D0034D92C /* SampleForm-Info.plist */,
+				FBCF95A119C9332D0034D92C /* InfoPlist.strings */,
+				FBCF95A419C9332D0034D92C /* main.m */,
+				FBCF95A619C9332D0034D92C /* SampleForm-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FBCF95C019C9332D0034D92C /* SampleFormTests */ = {
+			isa = PBXGroup;
+			children = (
+				FBCF95C619C9332D0034D92C /* SampleFormTests.m */,
+				FBCF95C119C9332D0034D92C /* Supporting Files */,
+			);
+			path = SampleFormTests;
+			sourceTree = "<group>";
+		};
+		FBCF95C119C9332D0034D92C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FBCF95C219C9332D0034D92C /* SampleFormTests-Info.plist */,
+				FBCF95C319C9332D0034D92C /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FBCF95D019C933750034D92C /* TextInput */ = {
+			isa = PBXGroup;
+			children = (
+				FBCF95D119C933910034D92C /* TextInputCell.h */,
+				FBCF95D219C933910034D92C /* TextInputCell.m */,
+				FBCF95D419C933A50034D92C /* TextInputCell.xib */,
+			);
+			path = TextInput;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FBCF959419C9332C0034D92C /* SampleForm */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FBCF95CA19C9332D0034D92C /* Build configuration list for PBXNativeTarget "SampleForm" */;
+			buildPhases = (
+				FBCF959119C9332C0034D92C /* Sources */,
+				FBCF959219C9332C0034D92C /* Frameworks */,
+				FBCF959319C9332C0034D92C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SampleForm;
+			productName = SampleForm;
+			productReference = FBCF959519C9332C0034D92C /* SampleForm.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FBCF95B819C9332D0034D92C /* SampleFormTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FBCF95CD19C9332D0034D92C /* Build configuration list for PBXNativeTarget "SampleFormTests" */;
+			buildPhases = (
+				FBCF95B519C9332D0034D92C /* Sources */,
+				FBCF95B619C9332D0034D92C /* Frameworks */,
+				FBCF95B719C9332D0034D92C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FBCF95BF19C9332D0034D92C /* PBXTargetDependency */,
+			);
+			name = SampleFormTests;
+			productName = SampleFormTests;
+			productReference = FBCF95B919C9332D0034D92C /* SampleFormTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FBCF958D19C9332C0034D92C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = webawesome;
+				TargetAttributes = {
+					FBCF95B819C9332D0034D92C = {
+						TestTargetID = FBCF959419C9332C0034D92C;
+					};
+				};
+			};
+			buildConfigurationList = FBCF959019C9332C0034D92C /* Build configuration list for PBXProject "SampleForm" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FBCF958C19C9332C0034D92C;
+			productRefGroup = FBCF959619C9332C0034D92C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FBCF959419C9332C0034D92C /* SampleForm */,
+				FBCF95B819C9332D0034D92C /* SampleFormTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FBCF959319C9332C0034D92C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBCF95AF19C9332D0034D92C /* Main_iPad.storyboard in Resources */,
+				FBCF95B419C9332D0034D92C /* Images.xcassets in Resources */,
+				FBCF95AC19C9332D0034D92C /* Main_iPhone.storyboard in Resources */,
+				FBCF95A319C9332D0034D92C /* InfoPlist.strings in Resources */,
+				FBCF95D519C933A50034D92C /* TextInputCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBCF95B719C9332D0034D92C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBCF95C519C9332D0034D92C /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FBCF959119C9332C0034D92C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBCF95B219C9332D0034D92C /* ViewController.m in Sources */,
+				FBCF95A919C9332D0034D92C /* AppDelegate.m in Sources */,
+				FBCF95A519C9332D0034D92C /* main.m in Sources */,
+				FBCF95D319C933910034D92C /* TextInputCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBCF95B519C9332D0034D92C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBCF95C719C9332D0034D92C /* SampleFormTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FBCF95BF19C9332D0034D92C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FBCF959419C9332C0034D92C /* SampleForm */;
+			targetProxy = FBCF95BE19C9332D0034D92C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FBCF95A119C9332D0034D92C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FBCF95A219C9332D0034D92C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		FBCF95AA19C9332D0034D92C /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FBCF95AB19C9332D0034D92C /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		FBCF95AD19C9332D0034D92C /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FBCF95AE19C9332D0034D92C /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		FBCF95C319C9332D0034D92C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FBCF95C419C9332D0034D92C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FBCF95C819C9332D0034D92C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FBCF95C919C9332D0034D92C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FBCF95CB19C9332D0034D92C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SampleForm/SampleForm-Prefix.pch";
+				INFOPLIST_FILE = "SampleForm/SampleForm-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		FBCF95CC19C9332D0034D92C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SampleForm/SampleForm-Prefix.pch";
+				INFOPLIST_FILE = "SampleForm/SampleForm-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		FBCF95CE19C9332D0034D92C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SampleForm.app/SampleForm";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SampleForm/SampleForm-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "SampleFormTests/SampleFormTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		FBCF95CF19C9332D0034D92C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SampleForm.app/SampleForm";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SampleForm/SampleForm-Prefix.pch";
+				INFOPLIST_FILE = "SampleFormTests/SampleFormTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FBCF959019C9332C0034D92C /* Build configuration list for PBXProject "SampleForm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBCF95C819C9332D0034D92C /* Debug */,
+				FBCF95C919C9332D0034D92C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FBCF95CA19C9332D0034D92C /* Build configuration list for PBXNativeTarget "SampleForm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBCF95CB19C9332D0034D92C /* Debug */,
+				FBCF95CC19C9332D0034D92C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FBCF95CD19C9332D0034D92C /* Build configuration list for PBXNativeTarget "SampleFormTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBCF95CE19C9332D0034D92C /* Debug */,
+				FBCF95CF19C9332D0034D92C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FBCF958D19C9332C0034D92C /* Project object */;
+}
