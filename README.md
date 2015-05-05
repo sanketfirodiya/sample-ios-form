@@ -10,5 +10,7 @@ This UI component improves the UX in the following ways -
 <br/>
 Feel free to suggest improvements or contribute - [pull requests](https://github.com/sanketfirodiya/sample-ios-form/pulls)
 <br/>
+<br/>
+
 ## Contact
 For more awesome stuff, you should follow me on twitter [@SanketFirodiya](https://twitter.com/sanketfirodiya) :)
