@@ -6,5 +6,9 @@ This UI component improves the UX in the following ways -
 <br/>
 <br/>
 ![Output sample](https://github.com/sanketfirodiya/sample-ios-form/blob/master/Documents/Sample-iOS-Form.gif)
-
-Feel free to suggest improvements or fork it!
+<br/>
+<br/>
+Feel free to suggest improvements or contribute - [pull requests](https://github.com/sanketfirodiya/sample-ios-form/pulls)
+<br/>
+## Contact
+For more awesome stuff, you should follow me on twitter [@SanketFirodiya](https://twitter.com/sanketfirodiya) :)
